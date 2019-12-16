@@ -1,0 +1,16 @@
+{
+  "name": "kuroshiro-client",
+  "version": "1.0.0",
+  "description": "kuroshiro-client",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kuroshiro": "^1.1.2",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0"
+  },
+  "author": "disism.com",
+  "license": "MIT"
+}
