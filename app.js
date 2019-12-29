@@ -29,5 +29,5 @@ app.get('/', (request, response) => {
   response.sendFile(__dirname + '/views/index.html');
 });
 
-const port = 3000
+const port = 3002
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
